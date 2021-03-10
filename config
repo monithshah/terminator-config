@@ -1,0 +1,38 @@
+[global_config]
+  window_state = fullscreen
+[keybindings]
+  new_tab = <Primary><Shift>t
+  go_prev = <Primary><Shift>Left
+  go_left = None
+  go_right = <Primary><Shift>Right
+  rotate_cw = None
+  rotate_ccw = None
+  split_horiz = <Primary><Shift>h
+  split_vert = <Primary><Shift>v
+  copy = <Primary>c
+  paste = <Primary>v
+  resize_up = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  next_tab = <Primary>Right
+  prev_tab = <Primary>Left
+  layout_launcher = None
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono Bold 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollback_infinite = True
+    login_shell = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
